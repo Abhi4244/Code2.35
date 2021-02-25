@@ -1,0 +1,42 @@
+div.first {
+  background-color:green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+div.first:hover {
+  background-color: blue;
+}
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div.hello:hover p {
+  display: block;
+}
+a:link {
+  color:green;
+}
+
+/* visited link */
+a:visited {
+  color:cyan;
+}
+
+/* mouse over link */
+a:hover {
+  color:pink;
+  padding: 3px;
+  border-color: blue;
+  border: solid 1px ;
+}
+
+/* selected link */
+a:active {
+  color:red;
+}
+div.hello{padding: 10px;background-color: red;text-align: center;}
+a{font-size: 30px}
